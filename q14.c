@@ -4,12 +4,12 @@
 int main(){
     int n,i,x=0,c=0;
 
-    printf("enter no of elements in array: ");
+    printf("enter no of elements in array ");
     scanf("%d",&n);
 
     int arr[n];
     for (int i=0;i<n;i++){
-        printf("enter element %d: ",i+1);
+        printf("enter element %d ",i+1);
         scanf("%d",&arr[i]);
     }
     for (int i=0;i<n;i++){
@@ -22,10 +22,10 @@ int main(){
         }
      if (x==0 && arr[i]>1){
         c++;
-        printf("Prime element in the array: %d\n",arr[i]);
+        printf("Prime element in the array %d\n",arr[i]);
     }
     }
-    printf("\n\n\n No of prime elements : %d\n",c);
+    printf("\n\n\n No of prime elements %d\n",c);
     
     return 0;
 }
